@@ -1,0 +1,7 @@
+aghil-terminal-helper-v2/
+├── aghil
+├── install.sh
+├── uninstall.sh
+├── README.md
+├── LICENSE
+└── .gitignore
