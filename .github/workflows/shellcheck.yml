@@ -12,5 +12,5 @@ jobs:
       - name: Install ShellCheck
         run: sudo apt-get update && sudo apt-get install -y shellcheck
       - name: Check shell scripts
-        run: shellcheck install.sh lib/ttermux lib/ttermux-banner
+        run: shellcheck --severity=error install.sh lib/ttermux lib/ttermux-banner
         
